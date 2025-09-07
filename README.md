@@ -25,18 +25,31 @@ The project follows a standard machine learning pipeline for text classification
 
 ## Project Structure
 phishing-detector/
+
 ├── data/
+
 │ └── (empty - add your emails.csv here)
+
 ├── models/
+
 │ └── (empty - trained models will be saved here)
+
 ├── phishing_detector/
+
 │ ├── init.py
+
 │ ├── data_preprocessing.py
+
 │ ├── feature_extraction.py
+
 │ └── model.py
+
 ├── main.py # Runs the interactive CLI
+
 ├── predict.py # Logic for making single predictions
+
 ├── train.py # Main script to train the model
+
 └── README.md
 
 ## Future Work
