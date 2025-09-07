@@ -24,6 +24,7 @@ The project follows a standard machine learning pipeline for text classification
 4.  **Prediction (`predict.py` & `main.py`):** For new, unseen email text, the interactive interface loads the saved model and vectorizer. It applies the same cleaning and transformation steps to the new text and uses the model to generate a prediction (Phishing or Legitimate) and a confidence score.
 
 ## Project Structure
+'''
 phishing-detector/
 ├── data/
 │ └── (empty - add your emails.csv here)
@@ -38,7 +39,7 @@ phishing-detector/
 ├── predict.py # Logic for making single predictions
 ├── train.py # Main script to train the model
 └── README.md
-
+'''
 ## Future Work
 
 -   [ ] **Source a Dataset:** Find and integrate a robust, publicly available email dataset.
